@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
@@ -61,7 +60,7 @@
     --rgt-primary: #3b82f6;
     --rgt-primary-subtle: #1e293b;
   }
-}
+
 
 /* Flag rendering */
 .rgt-flag {

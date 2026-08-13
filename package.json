@@ -1,6 +1,6 @@
 {
   "name": "react-gtranslate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern, accessible, and highly customizable React translation library powered by GTranslate and shadcn/ui components.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
