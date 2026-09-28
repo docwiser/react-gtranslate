@@ -138,6 +138,7 @@ export const GTranslateCompact: React.FC<GTranslateCompactProps> = ({
               <SelectItem
                 key={lang.code}
                 value={lang.code}
+                onPointerMove={(e) => e.preventDefault()}
                 {...(itemProps as any)}
                 className={cn('text-xs', itemClassName, itemProps?.className)}
                 style={{ ...itemStyle, ...itemProps?.style }}

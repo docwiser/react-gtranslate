@@ -212,9 +212,10 @@ export const GTranslateDropdown: React.FC<GTranslateDropdownProps> = ({
                   <DropdownMenuItem
                     key={lang.code}
                     onSelect={() => handleSelect(lang.code)}
+                    onPointerMove={(e) => e.preventDefault()}
                     {...(itemProps as any)}
                     className={cn(
-                      'flex cursor-pointer items-center justify-between rounded-sm px-2 py-1.5 text-xs transition-colors',
+                      'flex cursor-pointer items-center justify-between rounded-sm px-2 py-1.5 text-xs transition-colors hover:bg-accent hover:text-accent-foreground',
                       isSelected && 'bg-accent font-semibold text-accent-foreground',
                       itemClassName,
                       itemProps?.className
